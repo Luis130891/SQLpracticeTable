@@ -1,0 +1,39 @@
+Se requiere un control de llamadas de un Call Center.
+
+Tenemos los Técnicos, que son las personas que reciben las llamadas.
+Los tecnicos tiene un nombre y un email, ambos obligatorios.
+
+Tenemos los clientes, tienen un nombre, email y telefono, todos obligatorios.
+
+Y las siguiente reglas.
+
++ Un Técnico puede no tener, tener 1 o "n" llamadas de muchos clientes.
++ Un Cliente puede no tener, tener 1 o "n" llamadas generadas que son atendidas por muchos técnicos.
+
++ Al finalizar cada llamada se registra siempre la fecha y hora de inicio; la fecha y hora de finalización, y un estado
+  solo con los siguientes valores (Resuelto, No Resuelto, Escalado)
+  Se debe registrar cual técnico y para cual cliente fue cada llamada.
+  
+  Debe intentar validar que la fecha de finalización debe ser mayor a la fecha de inicio de la llamada (Fecha y hora)(Ver si es posible)
+  
++ Un cliente puede llamar muchas veces un mismo día, y puede ser atendido por cualquier técnico.
+
+DATOS A INSERTAR
+================
+
++   5 técnicos con datos distintos cada uno.
++   5 clientes con datos distintos cada uno.
++   Dejar dos técnicos que no registren ninguna llamada (solo 3 técnicos registran llamadas)
++   Debe dejar tres clientes que no registren ninguna llamada (solo 2 clientes registran llamadas)
+
++ Para un cliente, registrar 3 llamadas a un único técnico (con fechas y horas diferentes) en un rango de fechas y horas  (mes marzo-2020)
+  Una llamada en cada estado indicado.  (Resuelto, No Resuelto, Escalado)
+  Diferentes horas de inicio y horas de finalizacion 
+  
++ Para otro cliente, registrar 3 llamadas a un técnico (en enero-2020) (todas en estado Resuelto); 
+   y para ese mismo cliente 3 llamadas a otro técnico (Todas en estado Escalado) (en febrero-2020)
+  
+
+En todos los casos!
+
+Al final hacer selects de todas las 3 tablas!!!

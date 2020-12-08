@@ -1,0 +1,132 @@
+EXAMEN #1 8pm 
+================
+
+Leer todo el documento antes de iniciar!!!
+2 archivos entregables!! (imagen + script) SIN COMPRIMIR!!
+
+Instrucciones Generales:
+=========================
+a) Leer todo el enunciado y estas instrucciones, y seguir las instrucciones detalladamente, sobre todo
+en cuanto a nombre de archivos, cumplimiento de requisitos de formatos de archivos.
+
+b) Se usará Microsoft Teams para estar conectados en el examen.
+
+c) Prohibido, intercambiar con compañeros o personas externas cualquier tipo de archivo o comunicación (durante el examen)
+   Estar en un lugar adecuado, sin interrupciones.
+   Estar ATENTO AL TIEMPO.. hay un tiempo límite que ustedes mismos deben medir (por TEAMS les recordaré)
+   Por cada minuto tarde (se rebaja 1 punto) al subirlo al aula virtual.
+   
+d) Prohibido accesar y usar salas de Chat, Skype, WhatsApp, WhatsApp Web, Messanger o cualquier forma de comunicación electrónica (con terceros). Tampoco Internet! (Solo para subir los entregables al Aula Virtual)
+Solo TEAMS y de Backup el Grupo de WhatsApp con el profesor!
+
+e) Pueden escuchar música, pero cuando consulten por TEAMS que no se escuche la musica!
+
+f) Prohibido consultar con el compañero, Prohibido buscar ayuda en cualquier persona o estudiante.
+
+g) Prohibido si algun estudiante le pide "que le ayude" o le brinde el "script de ejemplo", cometen una falta GRAVISIMA tanto
+   el que pide! como el que brinda a ayuda al otro estudiante!. Trabajen de forma honesta e individual!
+
+h) Tienen 1 hora y 30 minutos para entregar, los que tienen adecuación tienen 2.5 horas de tiempo total.
+   por cada minuto tarde, se rebaja 1 punto!
+
+i) Ante el incumplimiento de los solicitado explicitamente en las instrucciones, 
+se aplicarán rebajos de puntos.
+
+j) El profesor tendrá una sesión de TEAMS en modo Audio, todos deben tenerla silenciada (pero escuchando).  
+   Si tienen dudas pueden consultar, habilitando el micrófono y todos deben estar atentos a las consultas
+   (puede ser que la explicación del profesor les ayude a otros)
+   Entonces pueden escuchar musica, pero estar atentos a las consultas y explicaciones del 
+   profesor durante el examen.
+   Yo estaré disponible para consultas como si estuviese en el aula, solo de modo presencial remoto.
+   (Si se cae el internet del profesor. se usará el grupo de WhatsApp (Grupo BD) para hacer las consultas
+    puede ser como audio o texto, sin enviar las respuestas de lo que se evaluá del examen)
+
+Cualquier falta cometida faculta al profesor a anular la prueba realizada.
+
+=======================================================================================
+ENTREGABLES
+=============
+
+1) Diseñar Modelo Entidad Relacion, con los atributos correctos, identificando el PK.
+Haciendo correctamente la relación entre ENTIDADES, así como la cardinalidad.
+Además la correcta aplicación de la cardinalidad en las dos vías de la relación (Usar LABEL como se explicó en clases),
+y colocar su nombre completo con otro LABEL en la parte superior (centro, izquierda o derecha) que su nombre quede en la imagen a subir.
+
+Indicar en las relaciones:
+(Participation: Mandatory, Optional)
+(Cardinality: One, Many)
+
+No pueden seleccionar en ninguna de las anteriores, la que dice "Unspecificied", pues en el enunciado se explica con ejemplos las reglas de negocio.
+
+Usar: https://erdplus.com
+
+La exportación de la imagen, debe ser completa (deben verse todos los atributos, su nombre, LABELs, y relaciones completas)
+y recortada adecuadamente (NO TODA LA PANTALLA DEL ERDPLUS) 10ptos menos si no entregan la imagen recortada!
+En la Imagen debe aparecer el nombre de ustedes.
+
+
+Debe acomodar el diseño, para que las lineas de atributos no traslapen con las lineas
+de relaciones. No se traslapen atributos u otras lineas.
+
+Debe indicar un nombre apropiado a las ENTIDADES, ATRIBUTOS y RELACIONES.
+
+Nombre Final Ejemplo: ex1_nombre_apellido.jpg o bien ex1_nombre_apellido.png
+(El archivo anterior es el archivo entregable #1)
+=======================================================================================
+=======================================================================================
+2) Dentro del Script crear el MODELO RELACIONAL EN TEXTO (como vimos en clases) 
+
+Debe estar COMENTADO y al inicio del SCRIPT.
+
+
+3)  Crear Script recursivo, al inicio debe dropear los objetos para volverlos a crear.
+
+No deben existir errores de ninguna forma, todos los procesos deben correr
+sin errores, además debe cumplir (si se pueden implementar en el Script) 
+las políticas que se definan en el enunciado, debe revisar para verificar que puedan ser aplicables con las herramientas vistas en clases y no por programación.
+
+Nombre:  ex1_nombre_apellido.sql
+(El archivo anterior es el archivo entregable #2)
+
+No comprimir, subir los dos archivos al Aula Virtual al Enunciado que dice:
+**REPITO SIN COMPRIMIR; SUBIR LOS DOS ARCHIVOS (Imagen + Script)
+
+=======================================================================================
+
+En el Script debe aparecer su nombre completo, impreso en pantalla, tanto al inicio
+como al final del script. Igualmente cada sección (Tablas, PK, FK, CK, Inserts) debe estar rotulada con prompt.
+
+Ejemplo dentro del script (Tanto al inicio como al final) 5ptos menos Si no lo hace así al inicio y al final:
+
+PROMPT ====================
+PROMPT Nombre Apellido 8pm
+PROMPT ====================
+
+
+Nota: Al inicio debe ser antes del MODELO RELACIONAL EN TEXTO (como comentario para revisarlo!)
+
+NOTA IMPORTANTE!!!
+===================
+
+REVISAR Y VOLVER A REVISAR QUE LOS ARCHIVOS SUBIDOS AL AULA VIRTUAL SEAN LA IMAGEN DEL MODELO ER 
+Y EL SCRIPT!
+
+DEBEN TRABAJAR CON ORDEN Y REVISAR QUE GUARDEN EL ARCHIVO Y ENTREGUEN EL ARCHIVO CORRECTO
+SI SUBEN ARCHIVOS CON OTRAS VERSIONES O INCOMPLETOS PIERDEN LOS PUNTOS QUE CORRESPONDAN!!
+=======================================================================================
+=======================================================================================
+  
+  Puntaje. Crear Modelo ER : (30ptos)
+  Script completo (70ptos) con estos valores:
+  --Modelo Relacional en Texto  5ptos
+  --Tablas completas campos adecuados  10ptos
+  --Tablas con PKs adecuadas  10ptos
+  --Tablas con FKs adecuadas 10ptos
+  --Tablas con CKs adecuadaes 15ptos
+  --Inserts de datos correctos, uso se SEQUENCES 10ptos
+  --Dropeo de tablas y secuencias correctos 5ptos 
+  --Comentarios con PROMPT en cada seccion 
+     y además comentario con su nombre completo y grupo (8pm) al Inicio y final del Script. 5ptos
+
+=======================================================================================
+=======================================================================================
